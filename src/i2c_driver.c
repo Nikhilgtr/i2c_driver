@@ -6,7 +6,7 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <unistd.h>
-#include "../include/i2c_driver.h"
+#include <i2c_driver.h>
 
 
 i2c_err_t i2c_dev_init(i2c_ctx_t *self, uint16_t addr, int lane)
